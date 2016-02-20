@@ -13,6 +13,17 @@
 		0AD215E71A60D9B000CE211A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD215E61A60D9B000CE211A /* Images.xcassets */; };
 		0AD215EA1A60D9B000CE211A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AD215E81A60D9B000CE211A /* LaunchScreen.xib */; };
 		0AD215F61A60D9B000CE211A /* Linear_Lights_OutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD215F51A60D9B000CE211A /* Linear_Lights_OutTests.swift */; };
+		0AD216091A60E84800CE211A /* Icon-60.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD215FF1A60E84800CE211A /* Icon-60.png */; };
+		0AD2160A1A60E84800CE211A /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD216001A60E84800CE211A /* Icon-72.png */; };
+		0AD2160B1A60E84800CE211A /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD216011A60E84800CE211A /* Icon-72@2x.png */; };
+		0AD2160C1A60E84800CE211A /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD216021A60E84800CE211A /* Icon-Small-50.png */; };
+		0AD2160D1A60E84800CE211A /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD216031A60E84800CE211A /* Icon-Small-50@2x.png */; };
+		0AD2160E1A60E84800CE211A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD216041A60E84800CE211A /* Icon.png */; };
+		0AD2160F1A60E84800CE211A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD216051A60E84800CE211A /* Icon@2x.png */; };
+		0AD216101A60E84800CE211A /* iconBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD216061A60E84800CE211A /* iconBig.png */; };
+		0AD216111A60E84800CE211A /* light_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD216071A60E84800CE211A /* light_off.png */; };
+		0AD216121A60E84800CE211A /* light_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 0AD216081A60E84800CE211A /* light_on.png */; };
+		0AD216141A6120EE00CE211A /* LinearLightsOut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD216131A6120EE00CE211A /* LinearLightsOut.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +40,24 @@
 		0AD215DA1A60D9B000CE211A /* Linear Lights Out.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Linear Lights Out.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD215DE1A60D9B000CE211A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AD215DF1A60D9B000CE211A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0AD215E11A60D9B000CE211A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0AD215E11A60D9B000CE211A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		0AD215E41A60D9B000CE211A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AD215E61A60D9B000CE211A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0AD215E91A60D9B000CE211A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0AD215EF1A60D9B000CE211A /* Linear Lights OutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Linear Lights OutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD215F41A60D9B000CE211A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0AD215F51A60D9B000CE211A /* Linear_Lights_OutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Linear_Lights_OutTests.swift; sourceTree = "<group>"; };
+		0AD215FF1A60E84800CE211A /* Icon-60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60.png"; sourceTree = "<group>"; };
+		0AD216001A60E84800CE211A /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		0AD216011A60E84800CE211A /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		0AD216021A60E84800CE211A /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		0AD216031A60E84800CE211A /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		0AD216041A60E84800CE211A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0AD216051A60E84800CE211A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		0AD216061A60E84800CE211A /* iconBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconBig.png; sourceTree = "<group>"; };
+		0AD216071A60E84800CE211A /* light_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_off.png; sourceTree = "<group>"; };
+		0AD216081A60E84800CE211A /* light_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light_on.png; sourceTree = "<group>"; };
+		0AD216131A6120EE00CE211A /* LinearLightsOut.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearLightsOut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +102,7 @@
 				0AD215DF1A60D9B000CE211A /* AppDelegate.swift */,
 				0AD215E11A60D9B000CE211A /* ViewController.swift */,
 				0AD215E31A60D9B000CE211A /* Main.storyboard */,
+				0AD216131A6120EE00CE211A /* LinearLightsOut.swift */,
 				0AD215E61A60D9B000CE211A /* Images.xcassets */,
 				0AD215E81A60D9B000CE211A /* LaunchScreen.xib */,
 				0AD215DD1A60D9B000CE211A /* Supporting Files */,
@@ -90,6 +113,16 @@
 		0AD215DD1A60D9B000CE211A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0AD215FF1A60E84800CE211A /* Icon-60.png */,
+				0AD216001A60E84800CE211A /* Icon-72.png */,
+				0AD216011A60E84800CE211A /* Icon-72@2x.png */,
+				0AD216021A60E84800CE211A /* Icon-Small-50.png */,
+				0AD216031A60E84800CE211A /* Icon-Small-50@2x.png */,
+				0AD216041A60E84800CE211A /* Icon.png */,
+				0AD216051A60E84800CE211A /* Icon@2x.png */,
+				0AD216061A60E84800CE211A /* iconBig.png */,
+				0AD216071A60E84800CE211A /* light_off.png */,
+				0AD216081A60E84800CE211A /* light_on.png */,
 				0AD215DE1A60D9B000CE211A /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -156,11 +189,14 @@
 		0AD215D21A60D9B000CE211A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "CSSE Department";
 				TargetAttributes = {
 					0AD215D91A60D9B000CE211A = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 5XB3C38LR9;
 					};
 					0AD215EE1A60D9B000CE211A = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -192,9 +228,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD2160E1A60E84800CE211A /* Icon.png in Resources */,
 				0AD215E51A60D9B000CE211A /* Main.storyboard in Resources */,
+				0AD2160C1A60E84800CE211A /* Icon-Small-50.png in Resources */,
+				0AD2160D1A60E84800CE211A /* Icon-Small-50@2x.png in Resources */,
+				0AD216121A60E84800CE211A /* light_on.png in Resources */,
+				0AD2160A1A60E84800CE211A /* Icon-72.png in Resources */,
+				0AD2160B1A60E84800CE211A /* Icon-72@2x.png in Resources */,
+				0AD216111A60E84800CE211A /* light_off.png in Resources */,
 				0AD215EA1A60D9B000CE211A /* LaunchScreen.xib in Resources */,
+				0AD216091A60E84800CE211A /* Icon-60.png in Resources */,
+				0AD216101A60E84800CE211A /* iconBig.png in Resources */,
 				0AD215E71A60D9B000CE211A /* Images.xcassets in Resources */,
+				0AD2160F1A60E84800CE211A /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +260,7 @@
 			files = (
 				0AD215E21A60D9B000CE211A /* ViewController.swift in Sources */,
 				0AD215E01A60D9B000CE211A /* AppDelegate.swift in Sources */,
+				0AD216141A6120EE00CE211A /* LinearLightsOut.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,8 +385,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Linear Lights Out/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ishank-Tandon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -348,8 +397,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Linear Lights Out/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ishank-Tandon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -407,6 +458,7 @@
 				0AD215FB1A60D9B000CE211A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0AD215FC1A60D9B000CE211A /* Build configuration list for PBXNativeTarget "Linear Lights OutTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +467,7 @@
 				0AD215FE1A60D9B000CE211A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

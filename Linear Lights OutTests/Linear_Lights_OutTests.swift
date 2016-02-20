@@ -2,8 +2,8 @@
 //  Linear_Lights_OutTests.swift
 //  Linear Lights OutTests
 //
-//  Created by CSSE Department on 1/9/15.
-//  Copyright (c) 2015 CSSE Department. All rights reserved.
+//  Created by Ishank Tandon on 1/9/15.
+//  Copyright (c) 2015 Ishank Tandon. All rights reserved.
 //
 
 import UIKit
